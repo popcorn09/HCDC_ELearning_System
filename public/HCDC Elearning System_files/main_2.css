@@ -1,0 +1,53 @@
+/* Start Dialog Box */
+#dark-background {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #00000070;
+  z-index: 10;
+  justify-content: center;
+}
+
+#dlgbox {
+  align-self: center;
+  display: none;
+  background-color: white;
+  position: fixed;
+  width: 480px;
+  z-index: 11;
+  border: 5px solid red;
+  border-radius: 20px;
+}
+
+#dlg-header {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#dlg-body {
+  color: black;
+  font-size: 20px;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+#dlg-footer {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: right;
+  padding: 10px;
+}
+
+#dlg-footer button {
+  background-color: #00000000;
+  color: red;
+  font-size: 20px;
+  padding: 5px;
+  border: 0px;
+}
+/* End Dialog Box */
