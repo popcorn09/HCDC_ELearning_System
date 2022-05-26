@@ -11,6 +11,10 @@ class Controllers extends Controller
         return view('userlogin');
     }
 
+    public function login(Request $req) {
+        return view('userdesktop');
+    }
+
     public function userDesktop() {
         return view('userdesktop');
     }

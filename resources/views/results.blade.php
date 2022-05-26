@@ -178,7 +178,7 @@
                                 <tbody>
                                     <tr>
                                     <td><a href="quiz"><b>QUIZ 1</b></a></td>
-                                    <td>{{$score->score}}</td><!-- - - - - - - - - - -  Score Here   - - - - - - - - - - -->
+                                    <td>{{$score->score}} / 5</td><!-- - - - - - - - - - -  Score Here   - - - - - - - - - - -->
                                     <td>{{$score->created_at}}</td> <!-- - - - - - - - - - -  Score Here   - - - - - - - - - - -->
                                     </tr>
                                     </td>

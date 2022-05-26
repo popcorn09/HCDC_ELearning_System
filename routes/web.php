@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 Route::controller(Controllers::class)->group(function () {
     Route::get('/', 'userLogin');
+    Route::post('login', 'login');
     Route::get('userdesktop', 'userDesktop');
     Route::get('homepage', 'homePage');
     Route::get('exercises', 'exercises');

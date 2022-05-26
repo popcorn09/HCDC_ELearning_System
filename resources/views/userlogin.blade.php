@@ -126,7 +126,8 @@ v id="claroPage">
 
 
 <div style="box-shadow: 8px 8px #00000020; width: 300px; height: 315px; margin: 0 auto; border-radius: 20px; background-image: linear-gradient(50deg, #0d8ce090 0%, #fc3b3c90 75%);">
-    <form class="claroLoginForm;" style="padding: 20px;" action="http://claroline.hcdc.edu.ph/claroline/claroline/auth/login.php" method="post">
+    <form class="claroLoginForm;" style="padding: 20px;" action="login" method="post">
+        @csrf
         <legend style="font-size: 18px; margin-bottom: 20px; color: black;">AUTHENTICATION</legend>
         <input type="hidden" name="sourceUrl" value="aHR0cDovL2NsYXJvbGluZS5oY2RjLmVkdS5waA==">
         <input type="hidden" name="sourceCid" value="">

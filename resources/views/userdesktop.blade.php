@@ -423,7 +423,7 @@
                                             src="./HCDC Elearning System_files/course.png"
                                             alt="Access allowed only to platform members (user registered to the platform)">
                                         <span><a
-                                                href="http://claroline.hcdc.edu.ph/claroline/claroline/course/index.php?cid=HCI102_01531">HCI102_01531_2ndSem2122
+                                                href="homepage">HCI102_01531_2ndSem2122
                                                 (HCI102_01531)</a>
                                         </span>
                                     </dt>
